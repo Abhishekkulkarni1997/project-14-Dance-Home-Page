@@ -1,0 +1,177 @@
+@import url('https://fonts.googleapis.com/css2?family=Lobster&family=Pacifico&family=Poppins&display=swap');
+
+* {
+    margin: 0;
+    padding: 0;
+    background-color: #f5f5f5;
+}
+
+header {
+    height: 100px;
+    margin-top: 50px;
+
+}
+
+.logo>img {
+    width: 90px;
+    float: left;
+    margin-left: 80px;
+    position: relative;
+    z-index: 10;
+    background-color: transparent;
+    cursor: pointer;
+}
+
+.logo::after {
+    content: "";
+    background: url(../assets/pexels-rfstudio-3819572.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+    width: 600px;
+    height: 766px;
+    position: absolute;
+    top: -10px;
+    left: -20px;
+    z-index: 1;
+}
+
+nav {
+    float: right;
+    margin-right: 100px;
+    margin-top: 10px;
+    display: flex;
+    justify-content: space-around;
+    width: 500px;
+    font-size: 15px;
+    position: relative;
+}
+
+nav::after {
+    content: "";
+    width: 300px;
+    height: 2px;
+    background-color: #747474;
+    position: absolute;
+    top: 10px;
+    left: -300px;
+}
+
+.navitem {
+    font-family: Poppins;
+    cursor: pointer;
+    color: #747474;
+}
+
+.navitem.active {
+    color: #000;
+}
+
+.sectionone {
+    margin-left: 620px;
+    margin-top: -20px;
+
+}
+
+.sectionone>h1 {
+    color: #000;
+    font-size: 120px;
+    line-height: 92%;
+    width: 500px;
+    margin-left: 20px;
+}
+
+h1>span {
+    color: #000;
+    margin-left: 140px;
+    font-size: 120px;
+}
+
+.sectionone>h4 {
+    margin-left: 480px;
+    margin-top: -80px;
+    font-size: 27px;
+    font-weight: 100;
+    color: #747474;
+}
+
+.socialmedia {
+    float: right;
+    display: flex;
+    flex-direction: column;
+    margin-top: -220px;
+    height: 220px;
+    margin-right: 130px;
+    justify-content: space-between;
+}
+
+.socialmedia>img {
+    width: 20px;
+    cursor: pointer;
+}
+
+.socialmedia>img:nth-child(3) {
+    width: 15px;
+}
+
+button {
+    float: right;
+    margin-top: 50px;
+    padding: 15px 60px;
+    background-color: #2b2121;
+    color: #fff;
+    font-size: 18px;
+    margin-right: 130px;
+    cursor: pointer;
+}
+
+.bottomsection {
+    margin-top: 110px;
+    margin-left: 700px;
+}
+
+li {
+    margin-bottom: 10px;
+    font-size: 20px;
+}
+
+li::marker {
+    font-size: 2.5rem;
+    font-weight: bolder;
+}
+
+.content {
+    float: right;
+    margin-right: 100px;
+    margin-top: -260px;
+    position: relative;
+    width: 500px;
+}
+
+.content>h1:first-child {
+    font-size: 60px;
+    margin-right: 200px;
+}
+
+.content>p {
+    font-size: 20px;
+    margin-top: -20px;
+    margin-bottom: 10px;
+}
+
+.content>h1:last-child {
+    float: right;
+    margin-left: 100px;
+}
+
+.danceimg {
+    width: 400px;
+}
+
+.content>img:last-child {
+    width: 50px;
+    height: 100px;
+    margin-left: 50px;
+    position: absolute;
+    top: 100;
+    right: 10px;
+}
