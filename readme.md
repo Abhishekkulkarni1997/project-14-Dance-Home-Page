@@ -12,7 +12,7 @@
 ### Time Required to finish the project
     (3.5 hrs)
 
- [Deployed Link](https://css-html-project-fourteen.netlify.app/)
+ [Deployed Link](https://project-14-dance-landing-page.netlify.app/)
 
 ![badge](https://img.shields.io/badge/Deployment-Up-green)
 
